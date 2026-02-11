@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+  background-color: #0f1115;
+  color: #f5f7fa;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #0f172a; /* azul oscuro / casi negro */
+  padding: 16px 32px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.logo span {
+  color: #f8fafc;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 32px;
+  background-color: #f8fafc;
+  gap: 40px;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-img img {
+  width: 450px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+  color: #0f172a;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  margin-bottom: 24px;
+  color: #334155;
+}
+
+.hero-text button {
+  background-color: #dc2626; /* rojo LEGO */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
