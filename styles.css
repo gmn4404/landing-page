@@ -13,6 +13,7 @@ body {
 header {
   background-color: #0f172a; /* azul oscuro / casi negro */
   padding: 16px 32px;
+  display: flex;
 }
 
 .logo {
@@ -31,6 +32,19 @@ header {
   font-size: 1.1rem;
 }
 
+.links {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 35px;
+}
+
+a {
+  text-decoration: none;
+  color: #f5f7fa;
+  font-weight: bold;
+}
+
 .hero {
   display: flex;
   align-items: center;
@@ -38,6 +52,7 @@ header {
   padding: 80px 32px;
   background-color: #f8fafc;
   gap: 40px;
+  margin: 0 auto;
 }
 
 .hero-text {
@@ -64,7 +79,7 @@ header {
 }
 
 .hero-text button {
-  background-color: #dc2626; /* rojo LEGO */
+  background-color: #dc2626;
   color: white;
   border: none;
   padding: 12px 24px;
