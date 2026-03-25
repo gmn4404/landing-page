@@ -132,34 +132,11 @@ a {
 }
 
 .featured {
-  background-color: #0f172a;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.featured h2 {
-  color: #ffffff;
-  text-decoration: underline #dc2626;
-  font-size: 50px;
-  margin-bottom: 20px;
-}
-
-.featured h3 {
-  color: #ffffff;
-  text-decoration: underline #dc2626;
-  font-size: 22px;
-  margin-bottom: 0;
+  padding: 80px 32px;
 }
 
 .featured p {
-  color: #f5f7fa;
-  margin-top: 0;
-}
-
-.featured {
-  padding: 80px 32px;
-  background-color: #0f172a;
-  color: #f5f7fa;
+  text-align: justify;
 }
 
 .featured-content {
@@ -170,10 +147,8 @@ a {
   margin: 0 auto;
 }
 
-.featured-left {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.featured-left,
+.featured-right {
   flex: 1;
   min-width: 300px;
 }
@@ -181,38 +156,52 @@ a {
 .featured-left img {
   width: 100%;
   max-width: 500px;
-  height: auto;
   border-radius: 10px;
 }
 
-.featured-right {
-  flex: 1;
-  min-width: 300px;
-}
-
-.featured-right h2 {
-  margin-bottom: 20px;
-  font-size: 2rem;
-}
-
-.specs {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.spec {
+.specs .spec {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #334155;
   padding-bottom: 6px;
+  border-bottom: 1px solid;
 }
 
-.spec span:first-child {
-  color: #cbd5e1;
-}
-
-.spec span:last-child {
+/* Ferrari */
+.section-ferrari {
+  background-color: #0f172a;
   color: #f5f7fa;
-  font-weight: bold;
+}
+
+.section-ferrari .specs .spec {
+  border-color: #334155;
+}
+
+/* Lamborghini */
+.section-lamborghini {
+  background-color: #0b0b0b;
+  color: #f5f5f5;
+}
+
+.section-lamborghini .specs .spec {
+  border-color: #1f2937;
+}
+
+/* McLaren */
+.section-lamborghini {
+  background-color: #111827;
+  color: #e5e7eb;
+}
+
+.section-mclaren .specs .spec {
+  border-color: #374151;
+}
+
+/* Bugatti */
+.section-mclaren {
+  background-color: #020617;
+  color: #e2e8f0;
+}
+
+.section-bugatti .specs .spec {
+  border-color: #1e293b;
 }
